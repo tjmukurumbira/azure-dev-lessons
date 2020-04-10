@@ -9,3 +9,10 @@ Create resource group using azure cli
 az group create --name az203 --location southafricanorth
 
 ```
+
+
+Create resource group using powershell
+```
+New-AzResourceGroup --name az203 --location southafricanorth
+
+```
