@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  dockerwebbapp:
+    image: dockerwebbapp
+    build:
+      context: .
+      dockerfile: src/dockerwebbapp/Dockerfile
+    ports:
+      - 80
